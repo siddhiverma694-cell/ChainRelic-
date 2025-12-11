@@ -1,26 +1,56 @@
-# TokenAuditTrail: Immutable Record of Token Transactions for Compliance
+ChainRelic: Immutable On-Chain Record Preservation Protocol
+Project Description
 
-## Project Description
-TokenAuditTrail is a Solidity smart contract designed to provide a secure, immutable ledger of token transactions specifically tailored for compliance auditing purposes. The contract records every token transfer with detailed information including sender, receiver, amount, timestamp, and the originating transaction hash. This transparency and immutability help organizations comply with regulatory requirements by providing a verifiable transaction audit trail on-chain.
+ChainRelic is a Solidity-based immutable record storage framework designed to preserve permanent digital artifacts on-chain. Each “Relic” represents a tamper-proof entry containing a title, metadata URI, creator identity, timestamp, and a unique cryptographic hash. Once stored, records cannot be modified or deleted, making ChainRelic ideal for digital certificates, compliance documentation, proof-of-existence, and heritage preservation.
 
-## Project Vision
-Our vision is to empower blockchain projects, financial institutions, and regulatory bodies with an accessible and tamper-proof token transaction log that enhances trust, accountability, and compliance in decentralized ecosystems. TokenAuditTrail aims to be the go-to compliance layer that integrates seamlessly with any token system, making audits and reporting streamlined and reliable.
+ChainRelic ensures transparency, authenticity, and longevity for critical data across decentralized ecosystems.
+Project Vision
 
-## Key Features
-- **Immutable Transfer Logging:** Every token transfer is logged immutably on-chain, ensuring a permanent record.
-- **Detailed Records:** Logs include sender, recipient, amount, timestamp, and original transaction hash for robust auditing.
-- **Admin-Controlled Logging:** Only authorized admins can log transfers, ensuring data integrity.
-- **On-chain Access:** Transfer records can be accessed via public view functions for transparency.
-- **Event Emission:** Emits events for easy off-chain indexing and monitoring by compliance tools.
-- **Simple Integration:** Designed to work alongside existing token contracts by logging their transfers.
+The vision behind ChainRelic is to deliver a robust, censorship-resistant, and trustworthy blockchain vault for immutable record preservation.
 
-## Future Scope
-- Multi-admin role support with customizable permissions.
-- Integration with popular token standards (ERC20, ERC721) for automated transfer detection.
-- Advanced querying and filtering capabilities for audit reports.
-- Off-chain compliance dashboards and alerting systems powered by the contract events.
-- Support for cross-chain transfer logging.
-- Incorporation of cryptographic proofs for enhanced data verification.
+Our goal is to empower:
+
+Developers needing a permanent data layer
+
+Businesses requiring verifiable audit records
+
+Artists & creators who want provable authenticity
+
+Institutions preserving historical or legal documents
+
+ChainRelic aims to become the most reliable protocol for on-chain digital permanence.
+Key Features
+
+Immutable Record Storage:
+Once created, Relics cannot be edited or removed — ensuring permanent preservation.
+
+Decentralized Metadata Support:
+Store IPFS/Arweave links or JSON URIs as proof-of-existence.
+
+Unique Relic Hash:
+Each Relic includes a cryptographic fingerprint for authenticity verification.
+
+Creator Identity Tracking:
+Every relic stores the creator’s address and timestamp.
+
+Event Emission:
+All relic storage activities emit events for off-chain indexing and compliance monitoring.
+
+Simple Querying:
+Retrieve any Relic by ID or fetch the entire preserved collection.
+Future Scope
+
+Relic versioning with off-chain diff comparison
+
+Zero-knowledge proof integration for private relic verification
+
+On-chain certificate issuance & NFT wrapping
+
+Multi-signature approval for relic creation
+
+Cross-chain relic synchronization
+
+Metadata integrity validation through Merkle proofs
 
 ## Contract Details
 0x371c0CEA9123FB96032b5B48b363b86A18d0e537
