@@ -1,10 +1,10 @@
-ChainRelic: Immutable On-Chain Record Preservation Protocol
-Project Description
+**ChainRelic: Immutable On-Chain Record Preservation Protocol**
+**Project Description**
 
 ChainRelic is a Solidity-based immutable record storage framework designed to preserve permanent digital artifacts on-chain. Each “Relic” represents a tamper-proof entry containing a title, metadata URI, creator identity, timestamp, and a unique cryptographic hash. Once stored, records cannot be modified or deleted, making ChainRelic ideal for digital certificates, compliance documentation, proof-of-existence, and heritage preservation.
 
 ChainRelic ensures transparency, authenticity, and longevity for critical data across decentralized ecosystems.
-Project Vision
+**Project Vision**
 
 The vision behind ChainRelic is to deliver a robust, censorship-resistant, and trustworthy blockchain vault for immutable record preservation.
 
@@ -19,7 +19,7 @@ Artists & creators who want provable authenticity
 Institutions preserving historical or legal documents
 
 ChainRelic aims to become the most reliable protocol for on-chain digital permanence.
-Key Features
+**Key Features**
 
 Immutable Record Storage:
 Once created, Relics cannot be edited or removed — ensuring permanent preservation.
@@ -38,8 +38,7 @@ All relic storage activities emit events for off-chain indexing and compliance m
 
 Simple Querying:
 Retrieve any Relic by ID or fetch the entire preserved collection.
-Future Scope
-
+**Future Scope**
 Relic versioning with off-chain diff comparison
 
 Zero-knowledge proof integration for private relic verification
